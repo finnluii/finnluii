@@ -1,40 +1,47 @@
 body {
+    color: #404040;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    /* text-align: center; */
+    text-align: center;
 }
 
 #introduction {
     background-color: #FFFDDE;
     font-size: 250%;
-    max-height: 100vh;
-    padding-top: 200px;
+    min-height: 100vh;
+    padding-top: 100px;
     position: relative; /* set to relative so that we can set its child elements 
     absolute and relative to this introduction container */
     text-align: center; /* Only works if there is no fixed width set / width is 
     not the entire page */
+    margin: auto;
 }
 
 #aboutMe {
-    background-color: lavenderblush;
-    /* height: 200px;
-    width: 200px; */
+    background-color: #FFC3C3;
+}
+
+#profilePic {
+    width: 300px;
+    border-radius: 100%;
+    padding: 30px;
 }
 
 #workExperience {
-    background-color: paleturquoise;
-    /* height: 200px;
-    width: 200px; */
+    background-color: #FFD9C0;
 }
 
 #contactMe {
-    background-color: burlywood;
-    height: 200px;
-    width: 200px; 
+    background-color: #FAF0D7;
 }
+
+.cloud {
+    padding: 7%;
+}
+
 .topCloud {
     position: absolute;
-    top: 10%;
+    top: 0;
     right: 10%;
 }
 .bottomCloud {
@@ -42,15 +49,21 @@ body {
     position: absolute;
 }
 
-/* .mountainImg {
-    position: absolute;
+.mountainImg {
+    /* position: absolute; */
     left: 0;
     bottom: 0;
     margin-left: auto;
     margin-top: 0;
+}
+
+/* @media screen {
+    
 } */
 
 h1, h2, h3 {
+    /* -webkit-text-stroke: 0.1px black; */ /* black outline text supporting Chrome & Safari, 
+    which uses WebKit rendering engine */
     color: #66bfbf;
     font-family: 'RetroElectro', sans-serif;
     margin: 0;
@@ -67,7 +80,14 @@ p {
 
 img {
     display: inline-block;
-    padding: 7%;
+    /* object-fit: contain; */
+    padding: 0;
+    max-width: 100%;
     /* display: block; */
     /* position: ; */
+}
+
+div {
+    padding: 30px;
+    position: relative;
 }
