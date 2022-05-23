@@ -8,7 +8,7 @@ body {
     background-color: #FFFDDE;
     font-size: 250%;
     max-height: 100vh;
-    padding-top: 300px;
+    padding-top: 200px;
     position: relative; /* set to relative so that we can set its child elements 
     absolute and relative to this introduction container */
     text-align: center; /* Only works if there is no fixed width set / width is 
@@ -27,7 +27,7 @@ body {
     width: 200px; */
 }
 
-#footerContainer {
+#contactMe {
     background-color: burlywood;
     height: 200px;
     width: 200px; 
