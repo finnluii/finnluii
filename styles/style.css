@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /* text-align: center; */
+}
+
+#introduction {
+    background-color: #FFFDDE;
+    font-size: 250%;
+    max-height: 100vh;
+    padding-top: 300px;
+    position: relative; /* set to relative so that we can set its child elements 
+    absolute and relative to this introduction container */
+    text-align: center; /* Only works if there is no fixed width set / width is 
+    not the entire page */
+}
+
+#aboutMe {
+    background-color: lavenderblush;
+    /* height: 200px;
+    width: 200px; */
+}
+
+#workExperience {
+    background-color: paleturquoise;
+    /* height: 200px;
+    width: 200px; */
+}
+
+#footerContainer {
+    background-color: burlywood;
+    height: 200px;
+    width: 200px; 
+}
+.topCloud {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.bottomCloud {
+    left: 0;
+    position: absolute;
+}
+
+/* .mountainImg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-top: 0;
+} */
+
+h1, h2, h3 {
+    color: #66bfbf;
+    font-family: 'RetroElectro', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: auto; /* center element horizontally */
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    display: inline-block;
+    padding: 7%;
+    /* display: block; */
+    /* position: ; */
+}
