@@ -3,6 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     text-align: center;
+    overflow-x: hidden;
 }
 
 #introduction {
@@ -24,7 +25,7 @@ body {
 #profilePic {
     width: 300px;
     border-radius: 100%;
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 #workExperience {
@@ -83,8 +84,6 @@ img {
     /* object-fit: contain; */
     padding: 0;
     max-width: 100%;
-    /* display: block; */
-    /* position: ; */
 }
 
 div {
