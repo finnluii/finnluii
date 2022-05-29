@@ -8,7 +8,7 @@ body {
 
 #introduction {
     background-color: #FFFDDE;
-    font-size: 250%;
+    font-size: 200%;
     min-height: 100vh;
     padding-top: 100px;
     position: relative; /* set to relative so that we can set its child elements 
@@ -22,7 +22,7 @@ body {
     background-color: #FFC3C3;
 }
 
-#profilePic {
+.bodyImg {
     width: 300px;
     border-radius: 100%;
     padding: 30px 0px;
@@ -58,6 +58,10 @@ body {
     margin-top: 0;
 }
 
+.socialMediaLogo {
+    width: 1em;
+}
+
 /* @media screen {
     
 } */
@@ -72,6 +76,13 @@ h1, h2, h3 {
 
 h1 {
     margin: auto; /* center element horizontally */
+    font-size: 7rem; /* rem vs em so that the font-size from parent body element 
+    doesn't affect this, which may cause hard to find bugs */
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: lighter;
 }
 
 p {
