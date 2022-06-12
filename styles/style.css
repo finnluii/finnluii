@@ -10,7 +10,6 @@ body {
     background-color: #FFFDDE;
     font-size: 200%;
     min-height: 100vh;
-    padding-top: 100px;
     position: relative; /* set to relative so that we can set its child elements 
     absolute and relative to this introduction container */
     text-align: center; /* Only works if there is no fixed width set / width is 
@@ -18,36 +17,60 @@ body {
     margin: auto;
 }
 
-#aboutMe {
-    background-color: #FFC3C3;
-}
-
 .bodyImg {
     width: 300px;
     border-radius: 100%;
     padding: 30px 0px;
+    /* margin-right: 60px; */
+}
+
+#aboutMe {
+    background-color: #FFC3C3;
+    height: auto;
+    width: auto;
+}
+
+#aboutMe p {
+    width: 50%;
+    margin: 0 auto; /* center text */
+    line-height: 2;
+    text-align: left;
+    /* overflow: hidden; */
+    float: right;
+    padding: 10% 0;
+}
+
+#aboutMeImg {
+    float: left;
 }
 
 #workExperience {
     background-color: #FFD9C0;
 }
 
+#workExperienceImg {
+    float: right;
+}
+
 #contactMe {
     background-color: #FAF0D7;
 }
 
+.sectionContent {
+    background-color: black;
+}
+
 .cloud {
     padding: 7%;
+    position: absolute;
 }
 
 .topCloud {
-    position: absolute;
     top: 0;
     right: 10%;
 }
 .bottomCloud {
     left: 0;
-    position: absolute;
 }
 
 .mountainImg {
@@ -61,10 +84,6 @@ body {
 .socialMediaLogo {
     width: 1em;
 }
-
-/* @media screen {
-    
-} */
 
 h1, h2, h3 {
     /* -webkit-text-stroke: 0.1px black; */ /* black outline text supporting Chrome & Safari, 
@@ -98,14 +117,51 @@ img {
 }
 
 div {
-    padding: 30px;
+    padding: 60px 25%;
     position: relative;
+    overflow: hidden; /* this is parent element of floating elements.
+    the div will expand with floating elements instead of 
+    clipping/hiding them */
 }
 
 table {
     margin: 0 auto;
+    padding: 15% 0;
 }
 
 th, td {
     padding: 10px;
+}
+
+tr {
+    text-align: left;
+}
+
+@media (max-width:1400px) {
+    #aboutMe p {
+        width: 50%;
+        margin: 0 auto; /* center text */
+        line-height: 2;
+        text-align: left;
+        /* clear: both; */
+        float: none;
+        padding: 10px;
+    }
+
+    #aboutMeImg {
+        /* clear: both; */
+        float: none; /* center elements after set breakpoint */
+    }
+
+    #workExperienceImg {
+        float: none;
+    }
+
+    div {
+        padding: 60px 120px;
+    } 
+
+    table {
+        padding: 10px;
+    }
 }
