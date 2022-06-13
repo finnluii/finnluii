@@ -148,6 +148,11 @@ tr {
     padding: 0 40px;
 }
 
+footer {
+    background-color: #d3d3d3;
+    padding: 30px;
+}
+
 @media (max-width:1400px) {
     #aboutMe p, #contactMe p {
         width: 50%;
