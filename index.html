@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <title>Fiona Lui :: Software Developer</title>
         <link rel="stylesheet" href="styles/style.css">
         <link rel="shortcut icon" href="resources/favicon.ico" type="resources/x-icon">
         <link href="https://fonts.cdnfonts.com/css/retroelectro" rel="stylesheet">
@@ -10,10 +12,32 @@
             living in Toronto, Canada.">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Fiona Lui :: Software Developer</title>
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">fiona.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#introduction">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#workExperience">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactMe">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
     </head>
     <body>
-        <div id="introduction">
+        <div id="introduction" class="section">
             <img class="cloud topCloud" src="resources/cloud.png" alt="cloudImg">
             <h1>Hi! I'm Fiona.</h1>
             <p>I'm a software engineer.</p>
@@ -21,7 +45,7 @@
             <!-- TODO: not feelin esp. cute, might rm mountains later. -->
             <img class="mountainImg" src="resources/mountains.png" alt="mountainImg">
         </div>
-        <div id="aboutMe">
+        <div id="aboutMe" class="section">
             <h2>About Me.</h2>
             <img class="bodyImg" id="aboutMeImg" src="resources/IMG_8327.jpeg" alt="profilePic">
             <p>I'm currently a software engineer based in Toronto, and I'm trying to learn more about web development.
@@ -29,7 +53,7 @@
             <br>
             In my free time, I like to play my violin, a.k.a. El Capitan, and watch movies.</p>
         </div>
-        <div id="workExperience">
+        <div id="workExperience" class="section">
             <h2>Work Experience.</h2>
             <img class="bodyImg" id="workExperienceImg" src="resources/computer.png" alt="computerImg">
             <table>
@@ -49,14 +73,14 @@
                 </tbody>
             </table>
         </div>
-        <div id="contactMe">
+        <div id="contactMe" class="section">
             <h2>Get In Touch.</h2>
             <!-- <img class="bodyImg" src="resources/contacts.png" alt="contactImg"> -->
             <p>If you want to reach out, talk about movies, 
                 or give me tips on how I can stop sounding like a dying cat on 
                 the violin, contact me!</p>
                 
-            <a class="contactLink btn"
+            <a class="contactLink btn btn-outline-secondary btn-lg"
                 href="https://www.linkedin.com/in/fiona-lui/"
                 target="_blank"
                 rel="noreferrer noopener">
@@ -66,7 +90,7 @@
                 alt="LinkedinLogo">
                 LinkedIn
             </a>
-            <a class="contactLink btn"
+            <a class="contactLink btn btn-outline-secondary btn-lg"
                 href="https://twitter.com/finnluii"
                 target="_blank"
                 rel="noreferrer noopener">
@@ -76,7 +100,7 @@
                 alt="TwitterLogo">
                 Twitter
             </a>
-            <a class="contactLink btn"
+            <a class="contactLink btn btn-outline-secondary btn-lg"
                 href="https://github.com/finnluii"
                 target="_blank"
                 rel="noreferrer noopener">
@@ -87,6 +111,7 @@
                 GitHub
             </a>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
     <footer>
         <p>© 2022 Fiona Lui</p>

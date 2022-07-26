@@ -126,7 +126,7 @@ img {
     max-width: 100%;
 }
 
-div {
+.section{
     padding: 60px 25%;
     position: relative;
     overflow: hidden; /* this is parent element of floating elements.
@@ -151,7 +151,7 @@ tr {
     padding: 0 40px;
 }
 
-.btn {
+/* .btn {
     background: #66bfbf;
     -webkit-border-radius: 11;
     -moz-border-radius: 11;
@@ -174,9 +174,9 @@ tr {
     background-image: -o-linear-gradient(top, #66bfbf, #1c9696);
     background-image: linear-gradient(to bottom, #66bfbf, #1c9696);
     text-decoration: none;
-}
+} */
 
-footer {
+footer, nav {
     background-color: #d3d3d3;
     padding: 30px;
 }
